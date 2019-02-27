@@ -1,0 +1,276 @@
+/*Font family*/
+@font-face {
+  font-family: HelveticaBold;
+  src: url(../fonts/HelveticaBold.ttf);
+}
+@font-face {
+  font-family: HelveticaNeuBold;
+  src: url(../fonts/HelveticaNeuBold.ttf);
+}
+@font-face {
+  font-family: HelveticaNeue;
+  src: url(../fonts/HelveticaNeue.ttf);
+}
+@font-face {
+  font-family: HelveticaNeueLight;
+  src: url(../fonts/HelveticaNeueLight.ttf);
+}
+@font-face {
+  font-family: HelveticaNeueNormal;
+  src: url(../fonts/HelveticaNeueNormal.ttf);
+}
+@font-face {
+  font-family: HelveticaNormal;
+  src: url(../fonts/HelveticaNormal.ttf);
+}
+/*Font family */
+/*top header*/
+body{
+	font-family: HelveticaNeuBold;
+}
+.top-header{
+	background-color: #f0f2f4;
+	margin-bottom: -30px;
+
+}
+.top-link ul{
+
+}
+.top-link ul li{
+
+}
+.top-link ul li p{
+	font-family: HelveticaNormal;
+	font-size: 15px;
+}
+.top-link ul li p i{
+	padding-right: 5px;	
+}
+.top-link ul li p a i{
+	color: #1287bf;
+}
+/*top header*/
+header{
+	background-color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.dot i {
+    margin-top: 27px;
+    font-size: 5px;
+}
+.menubar ul li a{
+	font-family: HelveticaNeuBold;
+	padding: 15px !important;
+}
+.menubar button{
+	padding: 5px 20px;
+    margin-left: 30px;
+}
+/*banner start*/
+.banner{
+	background-image: url("../images/background-img.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 590px;
+}
+.banner-content{
+	padding-top: 200px;
+
+}
+.banner-content h1{
+	font-family: HelveticaNeuBold;
+	font-size: 48px;
+	margin-bottom: -5px;
+	color: #ffffff;
+}
+.banner-content h5{
+	font-family: HelveticaNeueLight;
+	font-size: 30px;
+	color: #ffffff;
+}
+.banner-content button{
+	font-family: HelveticaNeuBold;
+	font-size: 23.43px;
+	border-radius: 5px;
+	margin-top: 30px;
+	background-color: #f8cd53;
+	border: none;
+	padding: 20px;
+	color: #ffffff;
+}
+/*about us section*/
+.about-us{
+	padding: 70px;
+}
+.common-titel h1{
+	font-family: HelveticaNeuBold;
+	font-size: 36px;
+	color: #424242;
+	margin-bottom: -5px;
+}
+.common-titel p{
+	font-family: HelveticaNeueLight;
+	font-size: 20px;
+	color: #424242;
+}
+.common-titel hr{
+	border: none;
+	border-bottom: 5px solid #424242;
+	width: 50px;
+}
+/*single section*/
+.single-item{
+	padding-top: 30px;
+}
+.single-content img{
+	margin-bottom: 20px;
+}
+.single-content h1{
+	font-family: HelveticaNeuBold;
+	font-size: 22px;
+	color: #424242;
+}
+.single-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    padding: 0 43px;
+}
+/*about us section*/
+/*Our approch*/
+.OurApproch{
+	background-color: #f3f3f3;
+	padding: 70px;
+}
+.custom-padding{
+	margin-bottom: 50px;
+}
+.c-color{
+	background-color: #ffffff;
+}
+.steps1-img{
+
+}
+.steps1-img img{
+	width: 100%;
+}
+.steps1-content{
+	padding: 0 100px;
+    margin-top: 90px;
+    position: relative
+}
+.steps1-content h1{
+	font-family: HelveticaBold;
+	font-size: 24px;
+	font-weight: 700;
+}
+.steps1-content p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13.5px;
+	position: relative
+}
+.batch-1 {
+    position: absolute;
+    left: 438px;
+    top: 415%;
+    width: 8%;
+    text-align: center;
+    font-size: 20px;
+    background-color: red;
+    color: #ffffff;
+    padding: 25px;
+    border: 3px solid #ffffff;
+    border-radius: 5%;
+    font-family: HelveticaNormal;
+    line-height: 20px;
+}
+.batch-1 span{
+	font-family: HelveticaNormal;
+	font-size: 60px;
+	font-weight: 700;
+}
+.batch-2 {
+    position: absolute;
+    left: 810px;
+    top: 488%;
+    width: 8%;
+    text-align: center;
+    font-size: 20px;
+    background-color: red;
+    color: #ffffff;
+    padding: 25px;
+    border: 3px solid #ffffff;
+    border-radius: 5%;
+    font-family: HelveticaNormal;
+    line-height: 20px;
+}
+.batch-2 span{
+	font-family: HelveticaNormal;
+	font-size: 60px;
+	font-weight: 700;
+}
+.batch-3 {
+    position: absolute;
+    left: 436px;
+    top: 561%;
+    width: 8%;
+    text-align: center;
+    font-size: 20px;
+    background-color: red;
+    color: #ffffff;
+    padding: 25px;
+    border: 3px solid #ffffff;
+    border-radius: 5%;
+    font-family: HelveticaNormal;
+    line-height: 20px;
+}
+.batch-3 span{
+	font-family: HelveticaNormal;
+	font-size: 60px;
+	font-weight: 700;
+}
+.batch-4 {
+ 	position: absolute;
+    left: 810px;
+    top: 634%;
+    width: 8%;
+    text-align: center;
+    font-size: 20px;
+    background-color: red;
+    color: #ffffff;
+    padding: 25px;
+    border: 3px solid #ffffff;
+    border-radius: 5%;
+    font-family: HelveticaNormal;
+    line-height: 20px;
+}
+.batch-4 span{
+	font-family: HelveticaNormal;
+	font-size: 60px;
+	font-weight: 700;
+}
+.steps2-content{
+	padding: 0 100px;
+    margin-top: 90px;
+    text-align: right;
+    position: relative	
+}
+.steps2-content h1{
+	font-family: HelveticaBold;
+	font-size: 24px;
+	font-weight: 700;
+}
+.steps2-content p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13.5px;
+}
+.steps2-img img{
+	width: 100%;
+}
+/*Our approch*/
+/*our work*/
+
+/*our work*/
